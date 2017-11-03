@@ -27,6 +27,9 @@ const app = express()
 const compiler = webpack(webpackConfig)
 
 const devMiddleware = require('webpack-dev-middleware')(compiler, {
+  headers: {
+    "Access-Control-Allow-Origin": "\*"
+  },
   publicPath: webpackConfig.output.publicPath,
   quiet: true
 })

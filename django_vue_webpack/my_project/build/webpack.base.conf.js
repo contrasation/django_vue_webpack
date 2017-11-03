@@ -24,6 +24,7 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
+      '__STATIC__': resolve('static'),
     }
   },
   module: {
@@ -72,5 +73,8 @@ module.exports = {
         }
       }
     ]
-  }
+  },
+  plugins: [
+    new BundleTracker({filename: './webpack-stats.json'}),
+  ]
 }
