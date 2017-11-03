@@ -11,6 +11,12 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+from django.conf.urls import url
+from django.views.generic import TemplateView
+
+urlpatterns = [
+  url(r'^$', TemplateView.as_view(template_name='my_project/spa.html'), name='home'),
+]
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
