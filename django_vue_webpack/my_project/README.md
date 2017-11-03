@@ -1,6 +1,6 @@
 # my_project
 
-> A Vue.js project
+> A Vue.js + Django + Webpack project
 
 ## Build Setup
 
