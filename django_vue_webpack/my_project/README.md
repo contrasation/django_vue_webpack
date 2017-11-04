@@ -37,6 +37,8 @@ module.exports = {
   entry: {
     app: './src/main.js'
   },
+  
+・src/ directory is made when 'vue init webpack my_project' is executed.
 ```
 
 ```
