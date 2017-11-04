@@ -27,7 +27,27 @@ npm run e2e
 npm test
 ```
 
+# My Experiment
+
+
+# My Memo
+```
+・Entry point of the JS file is written in build/webpack.base.conf.js
+module.exports = {
+  entry: {
+    app: './src/main.js'
+  },
+```
+
+```
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 2017.11.03
 Confirm working the application with npm run dev
+```
+
+# My Link
+[Django + webpack + Vue.js - setting up a new project that's easy to develop and deploy (part 1)](https://ariera.github.io/2017/09/26/django-webpack-vue-js-setting-up-a-new-project-that-s-easy-to-develop-and-deploy-part-1.html)
+
+[django-webpack-loader](https://github.com/ezhome/django-webpack-loader)
+
