@@ -53,3 +53,4 @@ Confirm working the application with npm run dev
 
 [django-webpack-loader](https://github.com/ezhome/django-webpack-loader)
 
+[vue-cli](https://qiita.com/567000/items/dde495d6a8ad1c25fa43)
